@@ -7,3 +7,4 @@ javac ./java/ .java
 jar cvfe javadump.jar mainjava *.class
 Echo Compile Java program done!
 Echo Compile C Program (2/whoknows)
+gcc -o cdump ./c/dump.c
